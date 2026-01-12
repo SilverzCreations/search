@@ -58,22 +58,7 @@ body {
   100% { transform: translateY(-100vh) translateX(50px); opacity: 0; }
 }
 
-.clock {
-  font-size: 5rem;
-  font-weight: 800;
-  letter-spacing: 0.05em;
-background-image: linear-gradient(120deg, var(--blue), var(--purple));
-    background-clip: text;
-    color: transparent;
-}
 
-.date {
-  margin-top: 8px;
-  color: var(--muted);
-  font-size: 1.2rem;
-  text-shadow: 0 1px 6px rgba(0,0,0,0.4);
-  font-weight: bold;
-}
 
 .search-container {
   margin: 50px 0;
@@ -201,8 +186,7 @@ h2 {
 <div class="particle" style="top:80%; left:40%; animation-duration:15s;"></div>
 <div class="particle" style="top:30%; left:80%; animation-duration:20s;"></div>
 
-<div class="clock" id="clock">00:00</div>
-<div class="date" id="date">Loading…</div>
+
 
 <div class="search-container">
   <form action="https://duckduckgo.com/?t=brave" method="get" autocomplete="off">
